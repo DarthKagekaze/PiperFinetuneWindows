@@ -5,14 +5,25 @@
 
 # Changes you must make
 
-## Add this to the top off __main__.py file to allow os/path to understand your PC locations
+## Add this to the top of __ main __.py file to allow os/path to understand your PC locations
 
 import os
+
 import path
 
-a
-b
-c
+import platform 
+
+import pathlib
+
+plt = platform.system()
+
+if plt == 'Linux': 
+
+    pathlib.WindowsPath = pathlib.PosixPath
+
+
+
+pathlib.PosixPath = pathlib.WindowsPath
 
 
 
