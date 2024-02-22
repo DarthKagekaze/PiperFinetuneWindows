@@ -67,3 +67,19 @@ pathlib.PosixPath = pathlib.WindowsPath
 
 ## Go into the pytorch-lightning venv files, and add this to trainer.py
 
+
+<br />
+<br />
+<br />
+<br />
+
+# monotonic_align
+## To build monotonic_align for windows do...
+## Also
+## Comment out this line from the monotonic_align's __ init __.py file, like so?:
+
+```
+
+#maximum_path_c(path, neg_cent, t_t_max, t_s_max)
+
+```
